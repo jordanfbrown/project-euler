@@ -101,4 +101,18 @@ numbers = <<NUM
 53503534226472524250874054075591789781264330331690
 NUM
 
-puts number
+numbers = numbers.split(/\n/)
+
+total = []
+last_sum = 0
+(0..49).reverse_each do |i|
+  sum = numbers.map { |n| n[i].to_i }.inject(:+) + last_sum
+  if i > 0
+    total.unshift(sum % 10)
+    last_sum = (sum - sum % 10) / 10
+  else
+    total.unshift(sum)
+  end
+end
+
+puts total.join[0..9]

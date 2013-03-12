@@ -19,19 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="problem12.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/problem12.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="47" selection-start="1157" selection-end="1157" vertical-scroll-proportion="1.069264">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="problem13.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="problem13.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/problem13.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="61" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
+            <state line="115" column="4" selection-start="5379" selection-end="5379" vertical-scroll-proportion="0.7922078">
               <folding />
             </state>
           </provider>
@@ -58,8 +49,8 @@
         <option value="$PROJECT_DIR$/problem10.rb" />
         <option value="$PROJECT_DIR$/problem11.rb" />
         <option value="$PROJECT_DIR$/integers.rb" />
-        <option value="$PROJECT_DIR$/problem13.rb" />
         <option value="$PROJECT_DIR$/problem12.rb" />
+        <option value="$PROJECT_DIR$/problem13.rb" />
       </list>
     </option>
   </component>
@@ -377,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/integers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="43" selection-start="206" selection-end="206" vertical-scroll-proportion="0.18470418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problem8.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="57" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.14117648">
@@ -398,16 +382,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problem13.rb">
+    <entry file="file://$PROJECT_DIR$/integers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="61" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
+        <state line="8" column="45" selection-start="206" selection-end="206" vertical-scroll-proportion="0.18470418">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/problem12.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="47" selection-start="1157" selection-end="1157" vertical-scroll-proportion="1.069264">
+        <state line="44" column="68" selection-start="785" selection-end="785" vertical-scroll-proportion="0.67676765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem13.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="4" selection-start="5379" selection-end="5379" vertical-scroll-proportion="0.7922078">
           <folding />
         </state>
       </provider>
