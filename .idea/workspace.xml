@@ -37,10 +37,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem9.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="problem9.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problem9.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="154" selection-end="154" vertical-scroll-proportion="0.093704246">
+            <state line="4" column="33" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem15.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problem15.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/problem23.rb" />
         <option value="$PROJECT_DIR$/problem25.rb" />
         <option value="$PROJECT_DIR$/problem26.rb" />
         <option value="$PROJECT_DIR$/problem27.rb" />
@@ -72,6 +80,7 @@
         <option value="$PROJECT_DIR$/problem24.rb" />
         <option value="$PROJECT_DIR$/problem8.rb" />
         <option value="$PROJECT_DIR$/problem9.rb" />
+        <option value="$PROJECT_DIR$/problem15.rb" />
       </list>
     </option>
   </component>
@@ -324,11 +333,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/problem4.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/problem20.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -407,7 +411,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problem9.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="154" selection-end="154" vertical-scroll-proportion="0.093704246">
+        <state line="4" column="33" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem15.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
