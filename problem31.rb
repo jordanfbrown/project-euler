@@ -1,22 +1,36 @@
-def find_combinations_for_coin(coin, current_combination, total)
-  total += coin
-  current_combination << coin
-  if total == 200
-    combinations.concat(current_combination)
-    find_combinations_for_coin(coin_index + 1, [],  0)
-  elsif total < 200
-    find_combinations_for_coin(coin_index, current_combination, total)
-  elsif total > 200
-    find_combinations_for_coin(coin_index + 1, current_combination, total)
+# 5 -->  [2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]
+# 10 --> [5, 5] 
+# 20 -> [10, 10]
+# 50 -> [20, 20, 10]
+# 100 -> [50, 50]
+# 200 -> [100, 100]
+
+$coins = [200, 100, 50, 20, 10, 5, 2, 1]
+
+$factor_map = {
+  5 => [[2, 2, 1], [2, 1, 1, 1], [1, 1, 1, 1, 1]],
+  10 => [[5, 5]],
+  20 => [[10, 10]],
+  50 => [[20, 20, 10]],
+  100 => [[50, 50]],
+  200 => [[100, 100]]
+}
+
+def breakdown(number, combinations = [])
+  combinations << [number] if number == 200
+  factor_array = $factor_map[number]
+  if factor_array
+    factor_array.each do |factors|
+      factors.each do |factor|
+        
+        combinations << breakdown(factor, combinations)
+      end
+    end
+  else
+    combinations
   end
 end
 
-combinations = []
-[200, 100, 50, 20, 10, 5, 2, 1].each do |coin|
-  new_combinations = find_combinations_for_coin(coin, [], 0)
-  combinations.concat(new_combinations)
-end
+combinations = breakdown(200)
+puts combinations.inspect
 
-combinations.uniq.each do |c|
-  puts c.inspect
-end
