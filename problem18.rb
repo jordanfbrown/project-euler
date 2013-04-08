@@ -16,29 +16,12 @@ triangle = [
   [4,  62, 98, 27, 23, 9,  70, 98, 73, 93, 38, 53, 60, 4,  23]
 ]
 
-
-# Iterate through rows
-# For each row, find max
-# C
-
-test = triangle.map do |row|
-  row.sort.reverse.map do |num|
-    row.index(num)
-  end
+path = triangle.shift
+previous_index = 0
+triangle.each do |row|
+  chosen_num = [ row[previous_index], row[previous_index + 1] ].max
+  path << chosen_num
+  previous_index = chosen_num == row[previous_index] ? previous_index : previous_index + 1
 end
 
-test.each { |r| puts r.inspect }
-
-
-[0, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5, 5, ]
-
-
-#path = triangle.shift
-#previous_index = 0
-#triangle.each_with_index do |row, i|
-#  chosen_num = [ row[previous_index], row[previous_index + 1] ].max
-#  path << chosen_num
-#  previous_index = row.index(chosen_num)
-#end
-#
-#puts path.inject(:+)
+puts path.inspect, path.inject(:+)
