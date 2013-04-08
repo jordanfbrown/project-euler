@@ -1,1 +1,1 @@
-puts (1..1000).map { |n| n ** n }.inject(:+).to_s.reverse[0..9].reverse
+puts (1..1000).map { |n| n ** n }.inject(:+).to_s[-10, 10]
