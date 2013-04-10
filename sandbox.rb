@@ -74,4 +74,10 @@ def subsequence(array)
   sums
 end
 
-puts subsequence([1,2,-3,1,-1])
+class Array
+  def without(index)
+    self[0..index-1] + self[index+1..self.length-1]
+  end
+end
+
+puts [1,2,3,4].without(2).inspect
